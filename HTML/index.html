@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>군생활 체크 포인트</title>
+    <link rel = "stylesheet" href = "../CSS/MainPage/index.css">
+    <link rel = "stylesheet" href = "../CSS/Reuse/sidebar.css">
+    <link rel = "stylesheet" href = "../CSS/MainPage/Content.css"> 
+</head>
+<body>
+    <!--사이드바-->
+    <SideBar>
+        <!--사이드바-프로필-->
+        <profile> 
+            <img id = "profileimg" src="../img/github 오징어.png" alt="프로필 사진입니다">
+            <profile-txt>
+                <div id = "userName">유승환</div>
+                <div id = "userState">지루한 군생활</div>
+            </profile-txt>
+        </profile> 
+         <!--사이드바-네비게이션 버튼-->
+        <ul id = "nav">
+            <li id = "setProfile">프로필 설정</li>
+            <li id = "setCheckpoint">체크포인트 설정</li>
+            <li id = "getMsg">
+                <p>메세지보기</p>
+                <div id = "msgCount">3</div>
+            </li>
+        </ul>
+    </SideBar>
+    <!--메인 컨텐츠-->
+    <Content>
+        <!--메인 컨텐츠-프로필-->
+        <img id = "mainProfileImg" src="../img/github 오징어.png" alt="프로필 사진입니다">
+        <!--메인 컨텐츠-박스들-->
+        <div id = "mainGrid_container">
+            <div id = "welcomeMsg">000 상병님 000일 남았습니다!</div>
+            <!--메인 컨텐츠-그래프 박스 안-->
+            <div id = "graph_container">
+                <div id = "pointName">전역</div>
+                <div id = "pointDay">2024.08.13</div>
+                <div id = "graph"></div>
+            </div>
+            <!--다른 체크포인트 표시-->
+            <div class = "otherPoint" id = firstPoint></div>
+            <div class = "otherPoint" id = secondPoint></div>
+            <div class = "otherPoint" id = thirdPoint></div>
+             <!--복무일수 정보-->
+            <div id = "status">
+                <div id = "whole">547일</div>
+                <div id="did">410일</div>
+                <div id="left">137일</div>
+            </div>
+        </div>
+    </Content>
+</body>
+</html>
