@@ -29,7 +29,7 @@ Made by [Dellyu03](https://github.com/dellyu03)
 
 ### Devleopment with..
 <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"> <img src="https://img.shields.io/badge/Java Script-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"> 
-<img src="https://img.shields.io/badge/Mongo DB-47A248?style=for-the-badge&logo=mongoDB&logoColor=white">
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=Mysql&logoColor=white">
 <img src="https://img.shields.io/badge/express.js-000000?style=for-the-badge&logo=express&logoColor=white">
 
 <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=node.js&logoColor=white">
