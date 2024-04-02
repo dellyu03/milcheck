@@ -1,0 +1,18 @@
+.otherPoint {
+    border: 2px solid black;
+    border-radius: 20px;
+    height:150px;
+    background-color: orange;
+    opacity: 40%;
+}
+
+
+.clickable-btn {
+    transition-property: opacity;
+    transition-duration: 0.2s;
+}
+
+.clickable-btn:hover {
+    cursor: pointer;
+    opacity: 100%;
+}
