@@ -40,3 +40,4 @@ Made by [Dellyu03](https://github.com/dellyu03)
 <br></br>
 
 # Devlog
+### [🌟사이드의 사이드 프로젝트 milcheck 개발일지🌟](https://velog.io/@youjacha082/series/milcheck-%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80)
