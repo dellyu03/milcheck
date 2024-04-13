@@ -1,4 +1,4 @@
-const userName = "유승환";
+const userName = "User1";
 //하루의 시간을 밀리세크로 나타냄
 const oneDay = 24 * 60 * 60 * 1000;
 const now = new Date ();
@@ -66,13 +66,14 @@ function goalToDay(goal) {
     return (result);
 }
 
-//아래부터는 실제 HTML 조작하는 코드
+//아래부터는 HTML 조작하는 코드
 const domwelcome = document.getElementById("welcomeMsg")
 const dompercentage = document.getElementById("percentage")
 const domprogress = document.getElementById("percentage_progress");
 const domgoalName = document.getElementById("goalName");
 const domgoalDay = document.getElementById("goalDay");
-var selectedGoal = goal2;
+const domuserName = document.getElementById("userName");
+var selectedGoal = goal1;
 
 
 /** welcome 메시지 작성 코드 */
@@ -86,3 +87,4 @@ domwelcome.innerHTML = crWelcomeMsg(selectedGoal);
 dompercentage.innerHTML = `${goalToDay(selectedGoal)[2]}%`;
 domgoalName.innerHTML = selectedGoal.name;
 domgoalDay.innerHTML = selectedGoal.endDate;
+domuserName.innerHTML = userName;
