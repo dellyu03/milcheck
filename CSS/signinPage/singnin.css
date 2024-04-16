@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+
+.separator {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  #signupBtn {
+    background-color: #28a745;
+    color: #fff;
+    margin-top: 10px;
+  }
+  
+  .social-login {
+    margin-top: 20px;
+  }
+  
+  .google-login, .kakao-login {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .google-login {
+    background-color: white;
+    box-shadow: 1px 1px 1px grey;
+    color: black;
+  }
+  
+  .kakao-login {
+    background-color: #ffeb00; /* Kakao Yellow */
+    box-shadow: 1px 1px 1px grey;
+    color: #000;
+  }
+  
