@@ -88,3 +88,5 @@ dompercentage.innerHTML = `${goalToDay(selectedGoal)[2]}%`;
 domgoalName.innerHTML = selectedGoal.name;
 domgoalDay.innerHTML = selectedGoal.endDate;
 domuserName.innerHTML = userName;
+
+
