@@ -1,0 +1,13 @@
+.base-color {
+    background-color: #161616;
+}
+
+.first-layer-color {
+    background-color: #313131;
+}
+
+.test-box {
+    width: 300px;
+    height: 300px;
+}
+
