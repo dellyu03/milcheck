@@ -1,9 +1,6 @@
-.base-color {
-    background-color: #161616;
-}
-
-.first-layer-color {
-    background-color: #313131;
+:root {
+    --base-color : #161616;
+    --first-layer-color : #313131; 
 }
 
 .test-box {
@@ -11,3 +8,9 @@
     height: 300px;
 }
 
+
+.side-bar {
+   width: 100px;
+   height: 300px;
+   background-color: red;
+}
