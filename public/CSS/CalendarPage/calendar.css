@@ -2,6 +2,7 @@
     --base-color : #161616;
     --first-layer-color : #313131; 
     --title-font_size : 32px;
+    --side-bar-border : 0.5px;
 }
 
 body {
@@ -51,7 +52,61 @@ body {
     object-fit: cover;
 }
 
+.side-bar__hedaer--profile--userName {
+    margin-bottom: 15%;
+    font-size: 25px;
+    font-weight: bold;
+}
 
+.side-bar__content {
+    width: 100%;
+    height: 80%;
+    margin-top: 10%;
+}
+
+.side-bar__button {
+    border : none;
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+    border-bottom: var(--side-bar-border) solid grey;
+    background-color: rgba(0, 0, 0, 0);
+    color : white;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+
+
+.btn{
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #8888;
+}
+
+.hover {
+    background-color: white;
+}
+
+.side-bar__button-icon {
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin-right: 3%;
+}
+
+.side-bar__button-btnText {
+    font-size: 20px;
+}
+
+.side-bar__button-first {
+    border-top : var(--side-bar-border) solid grey;
+}
 
 .calendar {
     margin-left: 2%;
