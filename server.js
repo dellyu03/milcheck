@@ -16,6 +16,7 @@ app.use('/test', express.static('JS'),express.static('public'));
 
 
 
+
 //HTML은 잘 전달 되지만 CSS는 전달이 안됨 static 정적파일 끌어오는 걸로 해결 됨
 app.get('/', function(req, res){
   const filePath = path.join(__dirname, '/HTML/index.html')
@@ -25,6 +26,25 @@ app.get('/', function(req, res){
 //test 라우터
 app.get('/test', function(req, res){
   const filePath = path.join(__dirname, '/HTML/calendar.html')
+  res.sendFile(filePath);
+});
+
+//notification 라우터
+app.get('/notifications', function(req, res){
+  const filePath = path.join(__dirname, '/HTML/notifications.html')
+  res.sendFile(filePath);
+});
+
+//메세지 라우터
+app.get('/message', function(req, res){
+  const filePath = path.join(__dirname, '/HTML/msg.html')
+  res.sendFile(filePath);
+});
+
+
+//task 라우터
+app.get('/tasks', function(req, res){
+  const filePath = path.join(__dirname, '/HTML/tasks.html')
   res.sendFile(filePath);
 });
 
