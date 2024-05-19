@@ -9,10 +9,10 @@ app.listen(port, () => {
 
 
 //static 파일안에 든 정적 파일을 가져오는 코드
-app.use('/', express.static('JS'),express.static('public'));
+app.use('/', express.static('public'));
 
 //test 라우터 public 파일 가져오는 코드
-app.use('/test', express.static('JS'),express.static('public'));
+app.use('/test', express.static('public'));
 
 
 
