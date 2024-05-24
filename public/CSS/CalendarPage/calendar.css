@@ -117,13 +117,50 @@ body {
 }
 
 .calendar__header {
+    display: flex;
     height: 10vh;
+    align-items: center;
 }
 
 .calendar__header-title {
     font-size: var(--title-font_size);
     font-weight: bold;
+    margin-bottom: 4%;
 }
+
+.title--container {
+    height: 100px;
+}
+.title__btn-container {
+    display: flex;
+    background-color: var(--first-layer-color);
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-btn {
+    transition-property: background-color;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+    width: 90px;
+    height: 30px;
+    margin:auto;
+    border-radius: 20px;
+    background-color: #000;
+    border: 0px;
+    color: white;
+    font-size: 16px;
+}
+
+.title-btn:hover {
+    background-color: var(--second-layer-color);
+}
+
 
 .calendar__header-btn--container {
     position: absolute;
@@ -131,7 +168,7 @@ body {
     display: flex;
     width: 100px;
     height: 50px;
-
+    margin-top: 5%;
 }
 
 .arrow {
@@ -147,7 +184,7 @@ body {
     border-bottom: 5px solid white;
     transform: rotate(-135deg);
     background-color: rgba(0, 0, 0, 0);
-    margin-left:auto;
+    margin-left: 25%;
 }
 
 
@@ -159,6 +196,9 @@ body {
     transform: rotate(45deg);
     background-color: rgba(0, 0, 0, 0);
 }
+
+
+
 
 .hoverPointer:hover {
     cursor: pointer;

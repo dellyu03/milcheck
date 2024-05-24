@@ -26,13 +26,19 @@
             <button onclick="location.href='/message'" class="btn side-bar__content-home side-bar__button "><img class = "side-bar__button-icon btn-icon__message" src = "./svg/message.svg"><p class = "side-bar__button-btnText">message</p></button>
             <button onclick="location.href='/notifications'" class="btn side-bar__content-home side-bar__button "><img class = "side-bar__button-icon btn-icon__message" src = "./svg/bell.svg"><p class = "side-bar__button-btnText">notification</p></button>
         </div>
-        <div class="side-bar__footer">
-
+            <div class="side-bar__footer">
         </div>    
     </div>
     <div class="calendar">
         <div class="calendar__header">
-            <div id = "calendar__title" class="calendar__header-title">August 2024</div>
+            <div class="title--container">
+                <div id = "calendar__title" class="calendar__header-title">August 2024</div>
+                <div class="title__btn-container">
+                    <button class="title-btn btn-today hoverPointer">Today</button> 
+                    <button class="title-btn btn-upcoming hoverPointer">Upcoming</button>
+                    <button class="title-btn btn-upcoming hoverPointer">Favorites</button>  
+                </div>
+            </div>    
             <div class="calendar__header-btn--container">
                 <button class="arrowLeft arrow hoverPointer"></button>
                 <button class="arrowRight arrow hoverPointer"></button>

@@ -19,7 +19,7 @@ app.use('/test', express.static('public'));
 
 //HTML은 잘 전달 되지만 CSS는 전달이 안됨 static 정적파일 끌어오는 걸로 해결 됨
 app.get('/', function(req, res){
-  const filePath = path.join(__dirname, '/HTML/index.html')
+  const filePath = path.join(__dirname, '/HTML/calendar.html')
   res.sendFile(filePath);
 });
 
